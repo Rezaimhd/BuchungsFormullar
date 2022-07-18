@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Segment-4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<main>
+    <form action="javascript:buchung()" class="my-5">
+        <h1>BuchungsFormullar bei Uns</h1>
+        <label for="nacht">Anzahl der Nächte</label>
+        <input name="nacht" type="number" min="1" placeholder="Anzahl der Nächte" id="nacht">
+
+        <label for="gäste">Anzahl der Gäste</label>
+        <input name="gäste" type="number" min="1" placeholder="Anzahl der Gäste" id="gäste">
+
+        <label for="breakfast" class="my-3">Frühstück <input name="breakfast" type="checkbox" id="breakfast"></label>
+        
+        <button type="submit" class="btn btn-primary my-2" id="frühstück">Submit</button>
+        <span id="price"></span>
+    </form>
+</main>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

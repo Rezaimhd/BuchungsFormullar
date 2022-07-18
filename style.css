@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    background-image: url(/02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+input{
+    background: transparent;
+    border: 1px solid rgb(174, 174, 174);
+
+}
+input:focus{
+    outline: 1px solid blueviolet;
+}
